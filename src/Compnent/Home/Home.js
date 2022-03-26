@@ -21,7 +21,7 @@ const Home = () => {
           <h1>{user.name}</h1>
           <p>{user.age}</p>
           {
-              user.phone.map((phone,index)=><div>
+              user.phone.map((phone)=><div>
                   <p>Home:{phone.home}</p>
                   <p>office:{phone.office}</p>
               </div>)
