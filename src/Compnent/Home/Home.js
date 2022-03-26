@@ -1,4 +1,5 @@
 import React from "react";
+//nested api 
 const users = [
   {
     name: "Subrata Modak ",
@@ -13,6 +14,7 @@ const users = [
 ];
 const Home = () => {
   return (
+    //api nested map 
     <div>
       <h1>Nested Lists </h1>
       {users.map((user,index)=><article key ={index}>
